@@ -1,7 +1,6 @@
 library(tidyverse)
 library(ggimage)
 
-image <-  png::readPNG("world-cup.png")
 
 medallero <- tibble(pais = c("Brasil", "Brasil","Brasil","Brasil","Brasil",
                              "Alemania","Alemania","Alemania","Alemania",
@@ -22,14 +21,10 @@ orden <- c("Brasil","Alemania","Italia","Argentina",
   "Francia","Uruguay","España","Inglaterra")
 
 
-
-
-
-
 ggplot(medallero, aes(x = reorder(pais,copas),y = copas)) +
         geom_dotplot(binaxis = "y", stackdir = "center", position = "dodge") +
         coord_flip() +
-        geom_emoji(aes(image = ifelse(copas > 0.5, '1f3c6', '1f600')), size=.1) +
+        geom_emoji(aes(image = '1f3c6'), size=.1) +
         theme_minimal() +
         labs(x = "",
              y = "",
