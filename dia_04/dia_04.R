@@ -32,13 +32,15 @@ ggplot(volumen_forestal, aes(x = reorder(provincia, volumen_total), y = volumen_
         geom_col() +
         coord_flip() +
         viridis::scale_fill_viridis(discrete = TRUE, option="magma") +
-        labs(title = "Plantaciones forestales por volumen - Argentina (2019)",
+        labs(title = "Plantaciones forestales por volumen",
+             subtitle = "Argentina (2019",
              x = "",
              y = "km3",
              fill = "Género",
              caption = "Fuente: Dirección Nacional de Desarrollo Foresto Industrial | @tartagalensis") +
         theme_minimal() +
         theme(plot.title = element_text(face = "bold", size = 25),
+              plot.subtitle = element_text(size = 20),
               plot.caption = element_text(size = 15, face="italic"),
               axis.text.y = element_text(size = 20),
               axis.text.x = element_text(size = 20),
