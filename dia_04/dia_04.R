@@ -45,7 +45,7 @@ ggplot(volumen_forestal, aes(x = reorder(provincia, volumen_total), y = volumen_
               axis.text.y = element_text(size = 20),
               axis.text.x = element_text(size = 20),
               axis.title.x = element_text(face= "bold",size = 20),
-              legend.position = "none")
+              legend.position = "bottom")
 
 
 ## SAVE
