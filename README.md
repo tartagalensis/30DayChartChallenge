@@ -24,4 +24,4 @@ A 30 Day Data Viz Challenge
 
 - Day 4. Flora
 
-![Day 4](/dia_04/volumen_forestal.jpg)
+![Day 4](/dia_04/volumen_forestal_arg.jpg)

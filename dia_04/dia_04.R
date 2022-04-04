@@ -49,10 +49,10 @@ ggplot(volumen_forestal, aes(x = reorder(provincia, volumen_total), y = volumen_
 
 
 ## SAVE
-ggsave(plot = last_plot(), filename = "dia_04/volumen_forestal.jpg",
+ggsave(plot = last_plot(), filename = "dia_04/volumen_forestal_arg.jpg",
        width = 10, height = 10, units = "in")
 
 ## TRIM
-image_read("dia_04/volumen_forestal.jpg") %>%
+image_read("dia_04/volumen_forestal_arg.jpg") %>%
         image_trim() %>%
-        image_write("dia_04/volumen_forestal.jpg") 
+        image_write("dia_04/volumen_forestal_arg.jpg") 
