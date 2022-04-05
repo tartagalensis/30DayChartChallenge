@@ -30,4 +30,4 @@ A 30 Day Data Viz Challenge
 
 - Day 5. Slope
 
-![Day 4](/dia_05/problemas_arg.jpg)
+![Day 5](/dia_05/problemas_arg.jpg)
