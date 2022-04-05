@@ -2,7 +2,7 @@ library(tidyverse)
 library(magick)
 
 volumen_forestal <- read.csv2("https://datos.magyp.gob.ar/dataset/8f740aac-66f3-448f-b8e0-f6a77b359f96/resource/08bc81d2-21cf-4d89-99dd-721c1da3afba/download/inventario-nacional-de-plantaciones-forestales-por-volumen.csv",
-                              ,encoding = "latin1",
+                              encoding = "latin1",
                               sep = ",") %>% 
         as_tibble() %>% 
         print()
