@@ -31,3 +31,9 @@ A 30 Day Data Viz Challenge
 - Day 5. Slope
 
 ![Day 5](/dia_05/problemas_arg.jpg)
+
+
+
+- Day 6. Data: OWID
+
+![Day 6](/dia_06/petroleo_arg.jpg)
