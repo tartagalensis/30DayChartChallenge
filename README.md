@@ -37,3 +37,7 @@ A 30 Day Data Viz Challenge
 - Day 6. Data: OWID
 
 ![Day 6](/dia_06/petroleo_arg.jpg)
+
+- Days 7 and 8. Physical and Mountains
+
+![Day_8](/dia_08/elevacion_salta.jpg)
