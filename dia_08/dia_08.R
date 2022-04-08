@@ -59,5 +59,3 @@ ggsave(plot = last_plot(), filename = "dia_08/elevacion_salta.jpg",
 image_read("dia_08/elevacion_salta.jpg") %>%
         image_trim() %>%
         image_write("dia_08/elevacion_salta.jpg")         
-
-
